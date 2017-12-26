@@ -7,8 +7,8 @@ import (
 
 func Test_Md5(t *testing.T) {
 	data := "logo_fox"
-	fmt.Println("Test_Md5:", Md5(data, false))
-	fmt.Println("Test_Md5 short:", Md5(data, true))
+	fmt.Println("Test_Md5:", GetMd5(data, false))
+	fmt.Println("Test_Md5 short:", GetMd5(data, true))
 }
 
 func Test_Bitwise(t *testing.T) {
