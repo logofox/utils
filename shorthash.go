@@ -52,7 +52,7 @@ func ShortHash(username string) string {
 	if username == "" {
 		return ""
 	}
-	imid := fmt.Sprintf("%s", username) // 原生写法
-	return BinaryTransfer(Bitwise(imid), 61)
+	return BinaryTransfer(Bitwise(username), 61)
 }
+
 
